@@ -1,0 +1,15 @@
+uvicorn~=0.26.0
+fastapi==0.109.2
+aiohttp==3.9.3
+pydantic~=2.5.3
+SQLAlchemy~=2.0.25
+asyncspotify~=0.12.1
+bs4~=0.0.2
+beautifulsoup4~=4.12.3
+asyncpg
+lxml
+brotli==1.1.0
+pydantic-settings
+websocket
+python-socketio
+redis
