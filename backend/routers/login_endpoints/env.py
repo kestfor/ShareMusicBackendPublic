@@ -1,5 +1,5 @@
 from backend.config_reader import config
-test_bot = int(config.test_bot_id.get_secret_value())
+test_bot = config.test_bot_id.get_secret_value()
 local_domain = "http://127.0.0.1"
 global_domain = config.global_domain.get_secret_value()
 
