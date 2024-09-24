@@ -9,3 +9,5 @@ BOT_LOGIN = config.bot_login.get_secret_value()
 
 BOT_ID = test_bot
 BOT_DOMAIN = global_domain
+
+print(BOT_DOMAIN, BOT_ID, BOT_LOGIN, BOT_TOKEN)
